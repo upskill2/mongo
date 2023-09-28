@@ -1,0 +1,134 @@
+{
+  "status": "HTTP_REJECTED_PACKAGE",
+  "body": {
+    "events": [
+      {
+        "data": {
+          "others": {
+            "9px": 407318,
+            "9py": 84475,
+            "aiu": 16,
+            "ad2": 330,
+            "aiv": 31450,
+            "aey": 8,
+            "aez": 23760,
+            "nf": 435,
+            "b7p": 54,
+            "9pq": 5,
+            "7p4": 709,
+            "9pr": "5187bf68-2f7b-11ee-ba38-b8ca3a60b3cc",
+            "9pt": 42,
+            "b85": 184
+          },
+          "connectivity": 0,
+          "ver": null,
+          "gt": 107708.828125,
+          "ses_t": 0.049571771174669266,
+          "ses_id": 47,
+          "9px": 407318,
+          "9py": 84475,
+          "aiu": 16,
+          "ad2": 330,
+          "aiv": 31450,
+          "aey": 8,
+          "aez": 23760,
+          "nf": 435,
+          "b7p": 54,
+          "9pq": 5,
+          "7p4": 709,
+          "9pr": "5187bf68-2f7b-11ee-ba38-b8ca3a60b3cc",
+          "9pt": 42,
+          "b85": 184
+        },
+        "others": {},
+        "type": 407573,
+        "token": "5503",
+        "ts": 1695602381,
+        "ts_local": 0,
+        "uuid": "b9a9492b-30fc-4262-8b13-2feb8b171fd1"
+      }
+    ],
+    "headerETSVersion": "1.2.1a",
+    "ts": 1695602381,
+    "tsLocal": 0,
+    "others": {
+      "hdidfv": ""
+    },
+    "uuid": "73dfcfca-edb8-486c-8e7a-197ebb931238",
+    "gdid": 6450705330544389362,
+    "ggid": 83541,
+    "ver": "1.2.1a",
+    "client_id": "apex:4999:83541:1.2.1a:windows:epic",
+    "anon_id": "N/A",
+    "fed_access_token": "b2651292-33cb-11ee-b858-cfb15a95a568,alert auth auth_admin_ro auth_game_admin config leaderboard leaderboard_override lobby message message_secured social social_admin storage storage_admin storage_restricted storage_ro transaction transaction_dynamic_reward,apex:4999:83541:1.2.1a:windows:epic,1695616780.768000,epic:68343d25efd6466384e1a132eb0087b0,6450705330544389362,gold0024|9b97fb8e3da51fa92a0f2b1d6c4699cd",
+    "install_id": 0,
+    "install_ts": 0,
+    "data_center_id": null,
+    "glot_rev": null,
+    "proto_ver": null,
+    "platform": "windows",
+    "client_time": 1695602381,
+    "client_time_local": 0,
+    "hdidfv": "",
+    "packageUuid": "73dfcfca-edb8-486c-8e7a-197ebb931238"
+  },
+  "headers": [
+    {
+      "Host": "etsv2.datalake.gameloft.com"
+    },
+    {
+      "X-Request-ID": "5910561e4a8757d671fa3d42d3ffff60"
+    },
+    {
+      "X-Real-IP": "52.206.159.211"
+    },
+    {
+      "X-Forwarded-For": "52.206.159.211"
+    },
+    {
+      "X-Forwarded-Host": "etsv2.datalake.gameloft.com"
+    },
+    {
+      "X-Forwarded-Port": "443"
+    },
+    {
+      "X-Forwarded-Proto": "https"
+    },
+    {
+      "X-Original-URI": "/"
+    },
+    {
+      "X-Scheme": "https"
+    },
+    {
+      "X-ETS-Forwarded-For": "76.144.114.145"
+    },
+    {
+      "Content-Length": "1000"
+    },
+    {
+      "User-Agent": "GLOTv3"
+    },
+    {
+      "Accept": "*/*"
+    },
+    {
+      "Accept-Encoding": "gzip;q=1.0, deflate;q=1.0, identity;q=0.5, *;q=0"
+    },
+    {
+      "Content-Type": "application/json"
+    },
+    {
+      "X-ETS-ggi": "83541"
+    },
+    {
+      "X-ETS-platform": "windows"
+    },
+    {
+      "X-ETS-sha1": "e050977318bf2738531d158414b1abbd3c6308ba"
+    },
+    {
+      "X-ETS-ver": "1.2.1a"
+    }
+  ]
+}
