@@ -88,5 +88,10 @@ public class StudentServiceImpl implements StudentService {
         return studentRepository.findAllByNameStartsWith (name);
     }
 
+    @Override
+    public List<Student> getByNameNative (final String id) {
+        return studentRepository.getByName (id);
+    }
+
 
 }

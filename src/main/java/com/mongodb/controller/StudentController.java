@@ -1,6 +1,8 @@
 package com.mongodb.controller;
 
 import com.mongodb.entity.Student;
+import com.mongodb.entity.collections.StudentCollection;
+import com.mongodb.service.collections.StudentCollectionService;
 import com.mongodb.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +15,18 @@ public class StudentController {
 
     @Autowired
     StudentService studentService;
+    @Autowired
+    StudentCollectionService studentCollectionService;
+
+    @PostMapping ("/createCollection")
+    public StudentCollection createStudentCollection (@RequestBody StudentCollection student) {
+        return studentCollectionService.createStudent (student);
+    }
+
+    @GetMapping ("/getDepartmentById")
+    public List<StudentCollection> getDepartmentCollection (@RequestParam String id) {
+        return studentCollectionService.getDepartmentCollection (id);
+    }
 
     @PostMapping ("/create")
     public Student createStudent (@RequestBody Student student) {
@@ -42,6 +56,11 @@ public class StudentController {
     @GetMapping ("/names/{name}")
     public List<Student> getStudentsByName (@PathVariable String name) {
         return studentService.getStudentsByName (name);
+    }
+
+    @GetMapping ("/byNameNative/{name}")
+    public List<Student> getByNative (@PathVariable String name) {
+        return studentService.getByNameNative (name);
     }
 
     @GetMapping ("/byNameAndEmail")

@@ -31,4 +31,6 @@ public interface StudentService {
     List<Student> getByEmailLike (String email);
 
     List<Student> getStudentsnameStartsWith (String name);
+
+    List<Student> getByNameNative (String id);
 }
